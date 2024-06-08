@@ -4,7 +4,7 @@ namespace TareasMinimalApi.Models
 {
     public class Categoria
     {
-        [Key]
+        //[Key]
         public Guid id { get; set; }
         public string Nombre { get; set; }
 

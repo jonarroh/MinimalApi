@@ -130,3 +130,4 @@ C:\Users\urieh\source\repos\TareasMinimalApi\obj\Debug\net8.0\refint\TareasMinim
 C:\Users\urieh\source\repos\TareasMinimalApi\obj\Debug\net8.0\TareasMinimalApi.pdb
 C:\Users\urieh\source\repos\TareasMinimalApi\obj\Debug\net8.0\TareasMinimalApi.genruntimeconfig.cache
 C:\Users\urieh\source\repos\TareasMinimalApi\obj\Debug\net8.0\ref\TareasMinimalApi.dll
+C:\Users\urieh\source\repos\TareasMinimalApi\obj\Debug\net8.0\TareasMinimalApi.sourcelink.json

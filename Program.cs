@@ -5,7 +5,13 @@ using TareasMinimalApi;
 var builder = WebApplication.CreateBuilder(args);
 
 // Agregar la configuración para usar una base de datos en memoria
-builder.Services.AddDbContext<TareasContext>(options => options.UseInMemoryDatabase("TareasDB"));
+//builder.Services.AddDbContext<TareasContext>(options => options.UseInMemoryDatabase("TareasDB"));
+
+// Agregar la configuración para usar una base de datos SQL Server
+// CAMBIAR EL password y Source por los valores de tu conexión
+builder.Services.AddDbContext<TareasContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 
